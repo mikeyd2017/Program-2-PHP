@@ -1,5 +1,5 @@
 <?php
-class TechnicianDB {
+class CustomerDB {
 public static function get_customers() {
     $db = Database::getDB();
     $query = 'SELECT * FROM customers
